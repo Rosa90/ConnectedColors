@@ -89,16 +89,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI4-HQ-8IB">
                                                 <rect key="frame" x="0.0" y="0.0" width="51.5" height="30"/>
                                                 <state key="normal" title="Red"/>
-                                                <connections>
-                                                    <action selector="redTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="l5x-q5-caT"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQs-5d-gd8">
                                                 <rect key="frame" x="61.5" y="0.0" width="44" height="30"/>
                                                 <state key="normal" title="Yellow"/>
-                                                <connections>
-                                                    <action selector="yellowTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="s6g-Uc-ro8"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -140,10 +134,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Parent" id="PKz-4Y-qQI"/>
-                    <connections>
-                        <outlet property="codeTF" destination="Uhc-yi-nGx" id="f3J-Zg-mMr"/>
-                        <outlet property="connectionsLabel" destination="vwt-mK-OVB" id="qhp-oq-0tF"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
